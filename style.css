@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+ul#header {
     list-style: none;
     display: flex;
     /* justify-content: flex-end; */
@@ -62,6 +62,7 @@ p#hero-text, a {
     flex-wrap: wrap;
     /* align-items: center; */
     width: 500px;
+    justify-content: center;
 }
 
 .img-hero {
@@ -78,4 +79,37 @@ button#hero-button {
     border-radius: 5px;
     padding: 5px;
     border: #3882f6;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+img#box {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+
+.img-text-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+    width: 150px;
 }
