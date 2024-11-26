@@ -113,3 +113,90 @@ img#box {
 .box-four {
     width: 150px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    width: 700px;
+}
+
+p#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+p#name {
+    text-align: right;
+    font-weight: 700;
+}
+
+.CTA-section {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.CTA-box {
+    background-color: #3883f6;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.CTA-text {
+    display: flex;
+    flex-direction: column;
+}
+
+p#CTA-header {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+p#CTA-byline {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #f9faf8;
+}
+
+button#CTA-button {
+    width: 120px;
+    height: 30px;
+    background-color: #3882f6;
+    font-size: 14px;
+    color: #e5e7eb;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #f9faf8;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+}
+
+p#footer {
+    color: #f9faf8;
+    font-size: 12px;
+    padding: 5px;
+}
